@@ -48,10 +48,7 @@ createCollectable("max", 400, 300)
 createCollectable("diamond", 700, 200)
 createCollectable("grace", 1200, 400)
     // TODO 4 - Create Cannons
-
-
-    
-    
+ createCannon("top", 1100, 100, 50);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
