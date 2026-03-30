@@ -48,15 +48,14 @@ var init = function (window) {
         drawCircle()
 
 // todo 4
-        physikz.updatePosition(circles[ 0 ])
+for (var i = 0; i < circles.length; i++) {
 
-        physikz.updatePosition(circles[ 1 ])
+               physikz.updatePosition(circles[i]);
 
-        physikz.updatePosition(circles[ 2 ])
+               game.checkCirclePosition(circles[i]);
 
-        physikz.updatePosition(circles[ 3 ])
 
-        physikz.updatePosition(circles[ 4 ])
+}
 // todo 5
         
         game.checkCirclePosition(circles[ 0 ])
