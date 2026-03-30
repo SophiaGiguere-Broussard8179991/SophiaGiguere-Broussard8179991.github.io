@@ -47,6 +47,18 @@ var init = function (window) {
 
         drawCircle()
 
+
+        physikz.updatePosition(circles[ 0 ])
+
+        physikz.updatePosition(circles[ 1 ])
+
+        physikz.updatePosition(circles[ 2 ])
+
+        physikz.updatePosition(circles[ 3 ])
+
+        physikz.updatePosition(circles[ 4 ])
+
+        
         // TODO 7 : Use a loop to create multiple circles
 
 
