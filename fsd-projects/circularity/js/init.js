@@ -68,6 +68,22 @@ var init = function (window) {
         game.checkCirclePosition(circles[ 3 ])
 
         game.checkCirclePosition(circles[ 4 ])
+
+        // todo 6
+             if (circle.x < 0) {
+
+                            circle.x = canvas.width;
+
+                        } else if (circle.y > canvas.height) {
+
+                            circle.y = 0;
+
+                        } else if (circle.y < 0) {
+
+                            circle.y = canvas.height;
+
+                        }
+    
         // TODO 7 : Use a loop to create multiple circles
 
 
