@@ -16,8 +16,8 @@ var init = function (window) {
     ///////////////////
 
     // TODO 1 : Declare and initialize our variables
-    var circles;
-    var circle = [];
+    var circle;
+    var circles = [];
 
     // TODO 2 : Create a function that draws a circle
 
@@ -35,27 +35,10 @@ var init = function (window) {
 
     // TODO 3 : Call the drawCircle() function
 
-    drawCircle();
-
-    drawCircle();
-
-    drawCircle();
-
-    drawCircle();
-
-    drawCircle();
-  };
+   
 
   // TODO 7 : Use a loop to create multiple circles
-  drawCircle();
 
-  drawCircle();
-
-  drawCircle();
-
-  drawCircle();
-
-  drawCircle();
   for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
     drawCircle();
   }
@@ -72,7 +55,6 @@ var init = function (window) {
   function update() {
     // TODO 4 : Update the position of each circle using physikz.updatePosition()
 
-    // todo 4
     for (var i = 0; i < circles.length; i++) {
       physikz.updatePosition(circles[i]);
 
@@ -81,6 +63,7 @@ var init = function (window) {
 
       // TODO 8 / TODO 9 : Iterate over the array
     }
+}
 
     /* 
         This Function should check the position of a circle that is passed to the 
